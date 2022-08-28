@@ -1,0 +1,82 @@
+@media (min-width: 740px) and (max-width: 1024px)
+{
+    
+}
+
+@media (max-width: 740px) {
+    #header {
+        height: 46px;
+    }
+    
+    #header > .nav > li {
+        display: block;
+    }
+
+    #header .nav {
+        background-color: black;
+        width: 100%;
+    }
+
+    /* ẩn nút search */
+    #header .header-search {
+        display: none;
+    }
+
+    #content-section {
+        width: 90%;
+    }
+
+    #content .member-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .member-list .member-item {
+        display: flex;
+        flex-direction: column;
+        margin-top: 8px;
+    }
+
+    .member-item .box-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* place list */
+    .place-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .place-list .place-item {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .place-list .place-buttom {
+        width: 100%;
+    }
+
+    .contact-form .form-double,
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-form {
+        margin-top: 16px;
+    }
+
+    .contact-form .form-control {
+        margin-top: 4px;
+        border: 1px solid slategray;
+    }
+
+    .contact-form .submit {
+        width: 100%;
+        margin-right: 0;
+    }
+
+}
+
